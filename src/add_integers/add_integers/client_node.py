@@ -37,9 +37,9 @@ def main(args=None):
         addition_client.get_logger().info(f"Result of addition is {response.sum}")
       break
   
-    #destroy node
-    addition_client.destroy_node()
-    rclpy.shutdown()
+      #destroy node
+      addition_client.destroy_node()
+      rclpy.shutdown()
 
 if __name__ == '__main__':
   main()
